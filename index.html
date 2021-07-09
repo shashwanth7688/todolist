@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+        rel="stylesheet">
+
+    <!--bootstrap libraries-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <title>Todo List</title>
+    <link href="title.png" rel="icon" style="height: 50px;width:50px;">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <ul class="navbar-nav">
+            <a class="navbar-brand" href="#">
+                <i class="fa fa-tasks fa-1x" aria-hidden="true"></i>
+
+            </a>
+            <li class=" nav-item active">
+                <a class="nav-link" href="docs.html"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;HOW
+                    TO</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="about.html"><i class="fa fa-info-circle"
+                        aria-hidden="true"></i>&nbsp;ABOUT</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://calendar.google.com/calendar/u/0/r"><i class="fa fa-calendar-alt"
+                        aria-hidden="true"></i>&nbsp;CALENDAR</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <div class="container m-5 rounded mx-auto bg-light shadow">
+              
+
+        <div class="container bg-warning shadow">
+          <center><h2>MY TODO LIST</h2></center>
+          <br><br>
+          
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" id="text" placeholder="Enter The Task" name="task">
+              </div>
+              <div class="col">
+                <div class="dropdown">
+                  <button class="dropbtn">Priority  <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </button>
+                  
+                  <div class="dropdown-content">
+                    <a href="#">Low</a>
+                    <a href="#">Medium</a>
+                    <a href="#">High</a>
+                  </div>
+                </div>
+              </div>
+           
+            <div class="col">
+            <button type="submit" class="btn btn-primary ">Add</button>
+          </div>
+        </div>
+          </form>
+        </div>
+<br>
+
+        <table class="table table-borderless table-hover">
+          
+          <tbody>
+            <tr>
+              <td>exercise</td>
+              <td>task 1</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+
+
+
+      <footer class="bg-dark fixed-bottom ">
+        
+          <center>Copyrights © Reserved</center>
+        
+      </footer>
+</body>
+
+</html>
