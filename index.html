@@ -58,27 +58,41 @@
 
         <div class="container bg-warning shadow">
           <center><h2>MY TODO LIST</h2></center>
-          <br><br>
+          <br>
           
-           <div class="row">
-              <div class="col">
-                <input type="text" class="form-control" id="text" placeholder="Enter The Task" name="task">
-              </div>
-              <div class="col">
-                <div class="dropdown">
-                  <button class="dropbtn">Priority  <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </button>
-                  
-                  <div class="dropdown-content">
-                    <a href="#">Low</a>
-                    <a href="#">Medium</a>
-                    <a href="#">High</a>
-                  </div>
-                </div>
-              </div>
            
-            <div class="col">
-            <button type="submit" class="btn btn-primary ">Add</button>
-          </div>
+            <div class="row m-1 p-3">
+              <div class="col col-11 mx-auto">
+                  <div class="row bg-white rounded shadow-sm p-2 add-todo-wrapper align-items-center justify-content-center">
+                      <div class="col">
+                          <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" placeholder="Add new ..">
+                      </div>
+                      <div class="col-auto px-0 mx-0 mr-2">
+                        <div class="dropdown">
+                          <button class="dropbtn">Priority  <i class="fa fa-chevron-circle-down" aria-hidden="true"></i> </button>
+                          
+                          <div class="dropdown-content">
+                            <a href="#">Low</a>
+                            <a href="#">Medium</a>
+                            <a href="#">High</a>
+                          </div>
+                        </div>
+                      </div>
+                      &nbsp;&nbsp;
+                      <div class="col-auto px-0 mx-0 mr-2">
+                      
+                          <button type="button" class="btn btn-primary">   <i class="fa fa-plus" aria-hidden="true"></i> Add</button>
+                      </div>
+                 &nbsp;&nbsp;
+                      <div class="col-auto px-0 mx-0 mr-2">
+                        <button type="button" class="btn btn-primary"> <i class="fa fa-trash" aria-hidden="true"></i> Delete all</button>
+                    </div>
+                  </div>
+              </div>
+          
+             
+           
+            
         </div>
           </form>
         </div>
@@ -88,18 +102,18 @@
           
           <tbody>
             <tr>
-              <td>exercise</td>
-              <td>task 1</td>
-              <td>john@example.com</td>
+              <td>Jog at 5</td>
+              <td>Low </td>
+              <td></td>
             </tr>
             <tr>
-              <td>Mary</td>
-              <td>Moe</td>
+              <td>Attend yoga class at 6</td>
+              <td>Medium</td>
               <td>mary@example.com</td>
             </tr>
             <tr>
-              <td>July</td>
-              <td>Dooley</td>
+              <td>Attend a webinar at 12</td>
+              <td>High</td>
               <td>july@example.com</td>
             </tr>
           </tbody>
